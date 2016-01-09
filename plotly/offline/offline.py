@@ -190,7 +190,7 @@ def plot(figure_or_data,
     import plotly.graph_objs as go
 
     plot([
-        go.Scatter(x=[1, 2, 3], y=[3, 2 6])
+        go.Scatter(x=[1, 2, 3], y=[3, 2, 6])
     ], filename='my-graph.html')
     ```
     More examples below.
